@@ -5,7 +5,7 @@
 
 string alpha = "symbols_and_words";
 string[] array = new string[30];
-string[] arrayres = new string[30];
+string[] arrayRes = new string[30];
 int j = 0;
 for (int i = 0; i < array.Length; i++)
 {
@@ -17,13 +17,13 @@ for (int i = 0; i < array.Length; i++)
 {
     if (array[i].Length <= 3)
     {
-        arrayres[j] = array[i];
+        arrayRes[j] = array[i];
         j++;
     }
 }
 for (int i = 0; i < array.Length; i++)
 {
-    Console.Write(arrayres[i] + " ");
+    Console.Write(arrayRes[i] + " ");
 }
 
 
